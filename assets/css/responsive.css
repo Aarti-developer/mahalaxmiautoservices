@@ -1,0 +1,185 @@
+/* ==========1440px breakpoint ==============*/
+@media (max-width: 1440px) {
+    
+  }
+  
+  /* ==========1366px breakpoint ==============*/
+  @media (max-width: 1366px) {
+  }
+  
+  /* ==========1200px breakpoint ==============*/
+  @media (max-width: 1200px) {
+  }
+  
+  /* ==========1110px breakpoint ==============*/
+  @media (max-width: 1110px) {
+  }
+  
+  /* ==========1024px breakpoint ==============*/
+  @media (max-width: 1024px) {
+    .footer-addtress a{
+        font-size: 0.8rem;
+    }
+    .navbar-toggler,
+    .navbar-toggler:active,
+    .navbar-toggler:focus{
+        border: 1px solid red;
+    }
+  }
+  
+  /* ==========992px breakpoint ==============*/
+  @media (max-width: 992px) {
+    .footer-services h6, .footer-quick-link h6{
+        font-size: 3vw;
+
+    }
+    .footer-addtress a,
+    .footer-services ul li a,
+    .footer-quick-link ul li a{
+        font-size: 1.3rem;
+    }
+    .car-denting-card2 img {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .about-content {
+        width: 100%;
+    }
+  }
+  
+  /* ==========872px breakpoint ==============*/
+  @media (max-width: 872px) {
+   
+  }
+  
+  /* ==========768px breakpoint ==============*/
+  @media (max-width: 768px) {
+
+  }
+  @media (max-width: 678px) {
+
+  }
+  /* ==========576px breakpoint ==============*/
+  @media (max-width: 576px) {
+    .service-card {
+        height: 250px;
+        margin: 2rem 0;
+    }
+    .choose-cards h4,
+    .service-card h3 {
+        font-size: 1.5rem;
+    }
+    .choose-cards p,
+    .about-content p{
+        font-size: 1.3rem;
+    }
+    .contact-us h1::after,
+    .services-section h1::after{
+        left: 33%;
+    }
+    .about-content h1::after{
+        left: 35%;
+    }
+    .choose-cards {
+        padding: 2rem 0.5rem;
+    }
+    .car-denting-card1{
+        text-align: start;
+    }
+    .car-denting-card2 img {
+        height: 100%;
+    }
+    .enquiry-form{
+        width: 100%;
+        padding: 0;
+    }
+    .footer-quick-link,
+    .footer-services,
+    .footer-about-content{
+        padding: 2rem 0;
+    }
+    .footer-addtress a, .footer-services ul li a, .footer-quick-link ul li a {
+        margin: 0.8rem 0.5rem;
+        font-size: 1.3rem;
+    }
+    .footer-social-links .social-circle{
+        margin-right: 0.5rem;
+    }
+    .footer-content {
+        padding: 1.5rem 0;
+    }
+    .footer-services h6, .footer-quick-link h6 {
+        font-size: 6.5vw;
+    }
+    .form-group{
+        margin: 1rem 0;
+    }
+    .offer-sec .offer-row{
+        flex-direction: column-reverse;
+    }
+    .offer-sec .offer-row h4 {
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+  }
+  /* ==========540px breakpoint ==============*/
+  @media (max-width: 540px) {
+  }
+  /* ==========425px breakpoint ==============*/
+  @media (max-width: 425px) {
+    .about-content h1,
+    .contact-us h1,
+    .services-section h1 {
+        font-size: 5rem;
+    }
+    .our-partners h2 {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    .contact-us h1::after,
+    .about-content h1::after,
+    .services-section h1::after {
+        left: 0;
+        text-align: center;
+        width: 95%;
+    }
+  }
+  /* ==========375px breakpoint ==============*/
+  @media (max-width: 375px) {
+    
+    .footer-addtress a:nth-child(1){
+        font-size: 1.2rem;
+    }
+    .footer-services h6, .footer-quick-link h6 {
+        font-size: 9.5vw;
+    }
+    .contact-us h1,
+    .about-content h1, .services-section h1 {
+        font-size: 4rem;
+    }
+    .navbar-brand {
+        width: 132px;
+    }
+    .navbar > .container-fluid{
+        width: 100%;
+    }
+    .upper-nav .social-icons{
+        width: 80%;
+    }
+  }
+  /* ==========320px breakpoint ==============*/
+  @media (max-width: 320px) {
+    .footer-addtress a:nth-child(1){
+        font-size: 1rem;
+    }
+    .offer-sec {
+        padding: 2rem 0;
+    }
+  }
+  
+  /* ==========280px breakpoint ==============*/
+  @media (max-width: 280px) {
+    
+  }
