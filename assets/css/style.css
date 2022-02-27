@@ -18,6 +18,7 @@ body {
   font-weight: 300;
   line-height: 26px;
   letter-spacing: 0.5px;
+  position: relative;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
@@ -188,6 +189,63 @@ i::after {
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+}
+
+
+
+.pop-sec{
+  top: 14px;
+position: absolute;
+display: none;
+padding: 2rem;
+width: 50%;
+height: auto;
+background: #000;
+transform: translate(-50%,0%);
+left: 50%;
+z-index: 1111;
+}
+.pop-sec .call-header{
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.pop-sec .call-header i{
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+.pop-sec .call-header h4{
+  font-size: 2.5vw;
+  color: #fff;
+  display: inline;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.pop-sec .popup-body{
+  text-align: center;
+
+}
+
+.pop-sec-show{
+  display: block;
+}
+
+.pop-sec .popup-body i a{
+  font-size: 1.5rem;
+}
+.pop-sec .popup-body i{
+  font-size: 25px;
+  color: #fff;
+}
+.pop-sec .popup-body h4{
+  font-size: 2vw;
+  color: #fff;
+}
+.pop-sec .popup-body button{
+  border:1px solid #fff;
+  padding: 1rem;
+  margin: 1rem;
 }
 /* Modal Form Enquiry Now body style Start */
 
@@ -604,6 +662,7 @@ i::after {
 .footer {
   padding: 5rem 0 0 0;
   background: #000;
+  overflow: hidden;
 }
 .footer-services h6,
 .footer-quick-link h6 {

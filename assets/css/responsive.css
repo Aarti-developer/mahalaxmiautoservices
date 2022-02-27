@@ -123,6 +123,21 @@
         padding: 2rem 0;
         font-size: 2rem;
     }
+    #callme {
+        /* position: fixed; */
+        /* right: 45px; */
+        bottom: 50%;
+        /* width: 70px; */
+        /* height: 70px; */
+      }
+      #scroll,
+      .whatsapp-btn {
+        right: 10px;
+      }
+      .pop-sec {
+        top: 120px;
+        width: 90%;
+    }
   }
   /* ==========540px breakpoint ==============*/
   @media (max-width: 540px) {
