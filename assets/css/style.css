@@ -200,9 +200,10 @@ display: none;
 padding: 2rem;
 width: 50%;
 height: auto;
-background: #000;
+background: #e92d1f;
 transform: translate(-50%,0%);
 left: 50%;
+box-shadow: 1px 5px 20px #e92d1f;
 z-index: 1111;
 }
 .pop-sec .call-header{
