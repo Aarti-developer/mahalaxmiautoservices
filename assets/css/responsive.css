@@ -135,9 +135,14 @@
         right: 10px;
       }
       .pop-sec {
-        top: 120px;
+        top: 10px;
+        position: fixed;
         width: 90%;
     }
+.pop-sec .popup-body h4,
+.pop-sec .call-header h4{
+    font-size: 4vw;
+}
   }
   /* ==========540px breakpoint ==============*/
   @media (max-width: 540px) {
