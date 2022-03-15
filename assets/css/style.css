@@ -3,15 +3,17 @@
 ====================================== */
 
 @font-face {
-  font-family: "NCS_Radhiumz";
-  src: url(./fonts/NCS_Radhiumz[1].ttf);
+  font-family: "sinethar";
+  src: url(./fonts/Sinethar.otf);
 }
+
 @font-face {
-  font-family: "Montserrat-Bold";
-  src: url(./fonts/Montserrat-Bold.ttf);
+  font-family: "poppins";
+  src: url(./fonts/Poppins-Regular.ttf);
 }
+
 body {
-  font-family: "Montserrat-Regular";
+  font-family: "poppins";
   background: #fff;
   font-size: 15px;
   color: #000;
@@ -45,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "", sans-serif;
+  font-family: "poppins";
 }
 h1,
 h2,
@@ -65,7 +67,7 @@ p {
   margin: 0;
   padding: 0;
   font-size: 15px;
-  font-family: "", sans-serif;
+  font-family: "poppins";
   color: #535353;
 }
 img {
@@ -194,7 +196,7 @@ i::after {
 
 
 .pop-sec{
-  top: 14px;
+  top: 0;
 position: absolute;
 display: none;
 padding: 2rem;
@@ -208,7 +210,9 @@ z-index: 1111;
 }
 .pop-sec .call-header{
   display: flex;
+  margin-bottom: 1rem;
 flex-direction: row;
+align-items: center;
 justify-content: space-between;
 }
 .pop-sec .call-header i{
@@ -221,7 +225,7 @@ justify-content: space-between;
   color: #fff;
   display: inline;
   text-align: center;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 .pop-sec .popup-body{
   text-align: center;
@@ -245,8 +249,8 @@ justify-content: space-between;
 }
 .pop-sec .popup-body button{
   border:1px solid #fff;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 0.5rem 1rem;
+    margin: 0.5rem;
 }
 /* Modal Form Enquiry Now body style Start */
 
@@ -276,7 +280,7 @@ justify-content: space-between;
   padding: 10px;
   border: none;
   outline: none;
-  font-family: "Montserrat-Regular", sans-serif;
+  font-family: "poppins";
   border-bottom: 1px solid #fff7;
   background: transparent;
   color: #fff;
@@ -679,18 +683,17 @@ justify-content: space-between;
 .copyright-sec p {
   text-align: center;
 }
-.footer-social-links {
-}
+/* .footer-social-links {} */
 .footer-addtress {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
 }
-.footer-services {
+/* .footer-services {
 }
 .footer-services h6 {
-}
+} */
 .footer-services ul li {
   color: #fff;
   list-style-type: disclosure-closed;
@@ -699,10 +702,7 @@ justify-content: space-between;
 .footer > .container > .row {
   padding: 10px 0;
 }
-.footer-quick-link {
-}
-.footer-quick-link h6 {
-}
+
 .footer-quick-link ul li {
   padding: 3px 0;
   color: #fff;
@@ -993,6 +993,7 @@ span.icon-contact {
 .navbar {
   /* position: fixed; */
   background: #fff;
+  border-bottom: 1px solid #0004;
   z-index: 999;
   width: 100%;
 }
@@ -1001,7 +1002,7 @@ span.icon-contact {
 }
 .navbar-nav .nav-link {
   color: #000;
-  font-family: "Sk-Modernist-Regular";
+  font-family: "poppins";
 }
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
@@ -1045,7 +1046,7 @@ span.icon-contact {
   font-size: 1.2rem;
   font-weight: 600;
   border-radius: 30px;
-  font-family: "Sk-Modernist-Regular";
+  font-family: "poppins";
   transition: all 0.4s;
 }
 
@@ -1075,7 +1076,7 @@ span.icon-contact {
 .upper-nav h4.top-text {
   font-size: 12px;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "poppins";
   font-weight: normal;
   margin-top: auto;
   margin-bottom: auto;
@@ -1090,7 +1091,7 @@ span.icon-contact {
   margin-right: 20px;
 }
 .upper-nav .top-detail li a {
-  font-family: "Open Sans", sans-serif;
+  font-family: "poppins";
   color: #ffffff;
   font-weight: normal;
   text-decoration: none;
@@ -1108,9 +1109,22 @@ span.icon-contact {
   margin-left: 15px;
   margin-right: 0;
 }
+.upper-nav .social-icons li a i{
+  /* padding: 8px; */
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-right: 15px;
+  line-height: 30px;
+  border-radius: 50%;
+  transition: all .4s ease-in-out;
+}
+.upper-nav .social-icons li a:hover i{
+  border: 1px solid #fff;
+}
 .upper-nav .social-icons {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   align-items: center;
   width: 40%;
 }
@@ -1130,11 +1144,40 @@ span.icon-contact {
   border-radius: 50%;
   border: solid 1px #ffffff;
 }
+.whatsapp-call{}
 /* top navbar End */
 /* Video Section start */
-.video-sec {
+/* .video-sec {} */
+.image-content2 .whatsapp-call{
+  display: inline-block;
+  color: #fff;
+  background-color: #000;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  padding: 1rem;
+  box-shadow: 0px 10px 10px #0006;
 }
-.video-sec video {
+.image-content2 h1{
+  font-weight: bold;
+  font-size: 3.5vw;
+}
+.image-content2 {
+  text-align: end;
+}
+.image-content2 p{
+  font-family: "sinethar";
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #e92d1f;
+}
+.image-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+/* .video-sec video {
   width: 100%;
   height: 700px;
   object-fit: cover;
@@ -1145,7 +1188,7 @@ span.icon-contact {
 }
 .video-sec #mobile {
   display: none;
-}
+} */
 /* Video Section end */
 /* Service section  */
 .services-section .services-row {
@@ -1215,8 +1258,7 @@ span.icon-contact {
   text-align: center;
   color: #fff;
 }
-.offer-sec .offer-row img {
-}
+/* .offer-sec .offer-row img {} */
 /* Offer section */
 .why-section {
   padding: 2rem 0;
@@ -1246,8 +1288,7 @@ span.icon-contact {
   padding: 5rem 0;
   overflow: hidden;
 }
-.car-denting-sec h1 {
-}
+/* .car-denting-sec h1 {} */
 .car-denting-card2 {
   text-align: center;
 }
@@ -1273,8 +1314,7 @@ span.icon-contact {
   font-weight: 700;
   margin: 15px 0;
 }
-.car-denting-card3 h3 {
-}
+/* .car-denting-card3 h3 {} */
 .car-denting-card3 p,
 .car-denting-card1 p {
   font-size: 1.2rem;
